@@ -1,0 +1,154 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    color: #1F2937;
+    background-color: #F3F4F6;
+}
+
+main{
+    padding: 0 16px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid green;
+    background-color: #059669 ;
+    height: 40px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+}
+
+.participants{
+    margin: 24px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #F3F4F6 ;
+}
+
+input, select{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid black ;
+}
+.submit-btn > button {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background: #059669;
+    color:#fff;
+    padding: 6px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.recherche, .participants-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 24px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.filter-btns > button{
+    border-radius: 5px;
+    border: none;
+    background: #059669;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.participants-list > p{
+    margin: 0;
+}
+
+.participants-list{
+    margin-bottom: 32px;
+}
+
+.supp-container > button {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background: #059669;
+    color:#fff;
+    padding: 6px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer{
+    background: #059669;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.85;
+}
+
+.span-error{
+    color: red;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    main{
+        max-width: 900px;
+        margin: auto;
+    }
+    .participants{
+        display: flex;
+        justify-content: space-evenly;
+    }
+} 
+
+@media (min-width: 1024px) {
+    main{
+        max-width: 1030px;
+    }
+} 
